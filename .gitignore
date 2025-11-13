@@ -12,3 +12,6 @@ src/
 
 # VS Code IntelliSense database files (can be very large)
 .vscode/browse.vc.db*
+
+# Archive
+tutorial_archive/
