@@ -1,10 +1,10 @@
 {
 	"folders": [
 		{
-			"path": ".."
+			"path": "/home/ehayoung/workspaces/ur_workspace"
 		},
 		{
-			"path": "../src/ur_workspace_config"
+			"path": "/home/ehayoung/workspaces/ur_workspace/src/ur_workspace_config"
 		}
 	],
 	"settings": {
