@@ -1,0 +1,5 @@
+repositories:
+  src/ur_workspace_config:
+    type: git
+    url: https://github.com/Ehayoung/ur_workspace_config.git
+    version: main

@@ -1,0 +1,11 @@
+# Colcon build/install/log folders
+build/
+install/
+log/
+
+# Python virtual environment
+.venv/
+
+# The src directory will be managed by vcs
+# We only want to track the .repos files, not the code itself. and only track repos that are installed within the workspace, not system level packages.
+src/
