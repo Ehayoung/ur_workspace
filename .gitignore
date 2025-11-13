@@ -9,4 +9,6 @@ log/
 # The src directory will be managed by vcs
 # We only want to track the .repos files, not the code itself. and only track repos that are installed within the workspace, not system level packages.
 src/
-.vscode/browse.vc.db
+
+# VS Code IntelliSense database files (can be very large)
+.vscode/browse.vc.db*
