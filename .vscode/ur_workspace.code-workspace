@@ -8,22 +8,6 @@
 		}
 	],
 	"settings": {
-		"terminal.integrated.profiles.linux": {
-			"bash_with_workspace": {
-				"path": "/bin/bash",
-				"args": [
-					"-l",
-					"-c",
-					"source /home/ehayoung/workspaces/ur_workspace/.venv/bin/activate; source /home/ehayoung/workspaces/ur_workspace/install/setup.bash; exec bash"
-				]
-			}
-		},
-		"terminal.integrated.defaultProfile.linux": "bash_with_workspace",
-		"python.autoComplete.extraPaths": [
-			"/opt/ros/jazzy/lib/python3.12/site-packages"
-		],
-		"python.analysis.extraPaths": [
-			"/opt/ros/jazzy/lib/python3.12/site-packages"
-		]
+		"python.terminal.activateEnvironment": false
 	}
 }

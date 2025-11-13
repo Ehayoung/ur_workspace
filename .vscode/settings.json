@@ -1,26 +1,4 @@
 {
-    // Default to the workspace-local virtual environment for tooling
-    "python.defaultInterpreterPath": "/home/ehayoung/workspaces/ur_workspace/.venv/bin/python",
-    "python.autoComplete.extraPaths": [
-        "/opt/ros/jazzy/lib/python3.12/site-packages"
-    ],
-    "python.analysis.extraPaths": [
-        "/opt/ros/jazzy/lib/python3.12/site-packages"
-    ],
-    // Re-enable auto-activation so new terminals pick up .venv automatically
-    "python.terminal.activateEnvironment": true,
-
-    // Create a default bash profile that activates the workspace venv and sources the ROS overlay
-    "terminal.integrated.profiles.linux": {
-        "bash_with_workspace": {
-            "path": "/bin/bash",
-            // Launch a login shell, activate the venv, source the workspace setup, then exec an interactive bash
-            "args": [
-                "-l",
-                "-c",
-                "source /home/ehayoung/workspaces/ur_workspace/.venv/bin/activate; source /home/ehayoung/workspaces/ur_workspace/install/setup.bash; exec bash"
-            ]
-        }
-    },
-    "terminal.integrated.defaultProfile.linux": "bash_with_workspace"
+    // Removed automatic activation & terminal profile; using global ~/.bashrc for conditional sourcing
+    "python.terminal.activateEnvironment": false
 }
