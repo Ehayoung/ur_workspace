@@ -1,9 +1,9 @@
 repositories:
   camera_tools:
     type: git
-    url: <YOUR_CAMERA_TOOLS_REMOTE_URL_OR_LOCAL_PATH>
+    url: https://github.com/Ehayoung/camera_tools.git
     version: main
   easy_handeye2:
     type: git
-    url: https://github.com/<ORG_OR_USER>/easy_handeye2.git
+    url: https://github.com/marcoesposito1988/easy_handeye2.git
     version: main
