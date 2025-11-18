@@ -5,6 +5,9 @@
 		},
 		{
 			"path": "/home/ehayoung/workspaces/ur_workspace/src/ur_workspace_config"
+		},
+		{
+			"path": "../src/camera_tools"
 		}
 	],
 	"settings": {
