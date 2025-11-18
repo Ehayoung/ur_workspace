@@ -132,7 +132,7 @@ External source deps managed via `ur_ws_dsktp.repos`.
 
 When implementing camera integration:
 1. **Frame hierarchy:** `world` → `ur10e_base_link` → `ur10e_tool0` → `camera_link` → `camera_optical_frame`
-2. **Static TF:** Hand-eye calibration from `ur10e_tool0` to `camera_link` (use easy_handeye for production)
+2. **Static TF:** Hand-eye calibration from `ur10e_tool0` to `camera_link` (use `multisensor_calibration` apt package for production)
 3. **Topic naming:** `/camera/image_raw`, `/aruco/poses`, `/target_object_pose`
 4. **Service interface:** `SetCameraMode.srv` for stream vs. capture modes
 5. **ArUco detection:** Runs on Raspberry Pi, publishes world-frame poses after TF transform
