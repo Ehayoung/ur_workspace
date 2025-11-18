@@ -1,9 +1,9 @@
 repositories:
   ur_workspace_config:
     type: git
-    url: https://github.com/EHayoung/ur_workspace_config.git
+    url: git@github.com/EHayoung/ur_workspace_config.git
     version: main
   camera_tools:
     type: git
-    url: https://github.com/Ehayoung/camera_tools.git
+    url: git@github.com/Ehayoung/camera_tools.git
     version: main
