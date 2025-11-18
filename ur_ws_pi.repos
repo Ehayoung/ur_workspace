@@ -1,5 +1,5 @@
 repositories:
   camera_tools:
     type: git
-    url: git@github.com/Ehayoung/camera_tools.git
+    url: git@github.com:Ehayoung/camera_tools.git
     version: main
