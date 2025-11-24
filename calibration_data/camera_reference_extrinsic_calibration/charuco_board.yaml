@@ -1,0 +1,16 @@
+# ChArUco board configuration for detection and calibration
+# Board: 9x7 squares, 0.025m square size, 0.018m marker size, DICT_5X5_50
+board_width: 0.200      # 8 squares * 0.025m = 0.200m
+board_height: 0.150     # 6 squares * 0.025m = 0.150m
+square_size: 0.025      # side length of each checkerboard square in meters
+marker_size: 0.018      # side length of aruco markers in meters
+aruco_dictionary: DICT_5X5_50  # ArUco dictionary used for this board
+squares_x: 9            # number of squares in X direction
+squares_y: 7            # number of squares in Y direction
+marker_ids:             # All ChArUco markers from DICT_5X5_50
+    rows: 31            # 31 markers total (rows 1,3,5,7 have 4 markers, rest have 5)
+    cols: 1
+    dt: i
+    data: [0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19, 20, 21, 22, 23, 24, 25, 26, 27, 28, 29, 30]
+# Note: ChArUco boards don't need marker_positions - they're computed from grid
+min_marker_detection: 4 # minimum number of markers that need to be detected
