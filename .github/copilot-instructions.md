@@ -131,7 +131,7 @@ External source deps managed via `ur_ws_dsktp.repos`.
 ## Vision System (Future Milestones)
 
 When implementing camera integration:
-1. **Frame hierarchy:** `world` → `ur10e_base_link` → `ur10e_tool0` → `camera` → `camera_optical_frame`
+1. **Frame hierarchy:** `world` → `ur10e_base_link` → `ur10e_tool0` → `ur10e_camera_optical_frame` (published by hand-eye static TF)
 2. **Static TF:** Hand-eye calibration from `ur10e_tool0` to `camera` (use `multisensor_calibration` apt package for production)
 3. **Topic naming:** `/camera/image_raw`, `/aruco/poses`, `/target_object_pose`
 4. **Service interface:** `SetCameraMode.srv` for stream vs. capture modes
