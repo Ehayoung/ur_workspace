@@ -1,3 +1,4 @@
 controller_manager:
   ros__parameters:
+    # Match the robot's native 500 Hz RTDE frequency
     update_rate: 500  # Hz
